@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--경로가 중요-->
+    <!--src:이미지 경로(확장자는 대소문자 구분하지 않음
+    경로는 현재 위치를 기준
+    루트경로(최상위 경로)부터 찾아 갈 수 있다
+    alt: 이미지 표시할 수 없는 경우
+    대체 텍스트의 용도로
+    )-->
+    <!--현재-->
+<img src="images/top.jpg" alt="상단이미지">
+
+<img src="./images/top.jpg" alt="상단이미지">
+<!--상위-->
+<img src="../1HTML/images/top.jpg" alt="">
+<!--최상위-->
+<img src="/1HTML/images/top.jpg" alt="">
+<hr>
+<hr>
+
+<img src="images/tangerines.jpg" alt="귤이미지">
+<img src="./images/tangerines.jpg" alt="귤이미지">
+<!--상위-->
+<img src="../1HTML/images/tangerines.jpg" alt="굴이미지">
+<!--최상위-->
+<img src="/1HTML/images/tangerines.jpg" alt="귤이미지">
+
+<hr>
+<hr>
+<pre>
+이미지의 높이와 너비 지정
+고정크기-px
+가변크기-%
+</pre>
+<!--기본값-->
+<img src="images/salad.jpg" alt="샐러드"
+width="200px" height=""200px">
+<p><img src="images/salad.jpg" alt="샐러드"
+    width="100px" height="100px"></p>
+
+
+<img src="images/salad.jpg" alt="샐러드"
+width="200" height=""200">
+<p><img src="images/salad.jpg" alt="샐러드"
+    width="50" height="50"></p>
+
+    <hr>
+    <hr>
+
+<h4>가변크기단위%</h4>
+<img src="images/salad.jpg" alt="샐러드" width="30%" height="150px">
+<img src="images/salad.jpg" alt="샐러드" width="60%" height="300px">
+
+
+<hr>
+<hr>
+
+<h3>이미지에 링크걸기</h3>
+<a href="http://naver.com">
+<img src="images/salad.jpg" alt="샐러드" width=""100px" height="100px">
+</a>
+<a href="http://daum.net">
+<img src="/1HTML/images/top.jpg" alt="탑" width="200px" height="80px">
+</a>
+
+
+
+
+</body>
+</html>
